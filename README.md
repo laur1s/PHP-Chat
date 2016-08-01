@@ -4,7 +4,7 @@ This is a secure login & registration form using PHP, MySQL and jQuery using Boo
 
 Form is using MySQL Prepared Statements and password encryption using SHA-256.
 
-![Index page](https://github.com/laur1s/PHP-chat/blob/master/example/index.PNG)
+![Index page](https://github.com/laur1s/PHP-chat/blob/master/ex/index.PNG)
 
 
 ##Installation
