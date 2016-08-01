@@ -1,8 +1,6 @@
 # PHP Web Chat
 
-This is a secure login & registration form using PHP, MySQL and jQuery using Bootstrap  3.
-
-Form is using MySQL Prepared Statements and password encryption using SHA-256.
+This is a Web Chat made using PHP/MySQL and Bootstrap
 
 ![Index page](https://github.com/laur1s/PHP-chat/blob/master/ex/index.PNG)
 
