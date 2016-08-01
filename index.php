@@ -75,17 +75,19 @@ $shouts = mysqli_query($conn, $query);
 
                 <form method="post" action="process.php">
                     <div class="input-group">
+                        <label for="focusedInput">Name:</label>
                         <input class="form-control" id="focusedInput" type="text" name="user"
                                placeholder="Enter Your Name" value="<?php echo $_SESSION["user"]; ?>"/>
                     </div>
 
                     <div class="input-group">
+                        <label for="focusedInput">Message:</label>
                         <input class="form-control input-lg" id="focusedInput" type="text" name="message"
                                placeholder="Enter A Message"/>
                     </div>
                     <br>
-                    <div class="col-md-2">
-                        <input class="btn-success btn-default" type="submit" name="submit" value="Send message"/>
+                    <div class="input-group">
+                        <input class="btn-success " type="submit" name="submit" value="Send message"/>
                     </div>
                 </form>
             </div>
